@@ -43,13 +43,14 @@ Read the matching template file before writing. Copy its heading structure exact
 ## Cross-Cutting Rules (apply to every variant)
 
 1. **First section always answers "what is this and why does it exist"** — `## Beskrivelse`, `## Overblik`, or `## Formål og kontekst` depending on variant.
-2. **Architecture/file structure is a fenced ` ```text ` code block showing a folder tree** — never prose-described.
-3. **Configuration is always its own section with a concrete JSON/code example** — never only described in prose.
-4. **How-to/guide sections are numbered `###` steps**, each with a code example where relevant.
-5. **Known limitations, workarounds, and TODOs go in exactly one section** (`Q&A / Kendte begrænsninger`, `FAQ`, or `Midlertidige løsninger og kendte begrænsninger`) — do not scatter them through the text.
-6. **Screenshots/UI flow steps use a two-column table**: `Beskrivelse | Billede`.
-7. **Related files/Jira tickets/other features are listed at the end as references**, not inline.
-8. **Written in Danish**, matching the existing documentation's tone.
+2. **Feature docs (A1/A2) always include a "Hvor finder du featuren" section** — click-by-click navigation from the app's entry point/menu to the feature, as a `Beskrivelse | Billede` table. This is navigation, not usage — keep it separate from the flow/usage section. Not required for B (technical branch/PR docs).
+3. **Architecture/file structure is a fenced ` ```text ` code block showing a folder tree** — never prose-described.
+4. **Configuration is always its own section with a concrete JSON/code example** — never only described in prose.
+5. **How-to/guide sections are numbered `###` steps**, each with a code example where relevant.
+6. **Known limitations, workarounds, and TODOs go in exactly one section** (`Q&A / Kendte begrænsninger`, `FAQ`, or `Midlertidige løsninger og kendte begrænsninger`) — do not scatter them through the text.
+7. **Screenshots/UI flow steps use a two-column table**: `Beskrivelse | Billede`.
+8. **Related files/Jira tickets/other features are listed at the end as references**, not inline.
+9. **Written in Danish**, matching the existing documentation's tone.
 
 ## Common Mistakes
 

@@ -14,6 +14,11 @@ for borgeren/brugeren.
 Trin-for-trin gennemgang af, hvordan featuren bruges/opleves. Brug en tabel
 (Beskrivelse | Billede) til at parre skærmbilleder med forklaring.
 
+## Hvor finder du featuren
+Klik-for-klik navigation fra appens forside/menu til featuren — ikke hvordan
+featuren bruges, kun hvor den findes. Brug en tabel (Beskrivelse | Billede),
+ét skærmbillede pr. navigationstrin.
+
 ## Funktionalitet
 De konkrete regler/muligheder featuren understøtter (fx de forskellige måder en
 handling kan udføres på).
@@ -34,3 +39,4 @@ Links til andre features/dokumentationssider der hænger sammen med denne.
 
 - Udelad `## Konfiguration` helt hvis featuren ikke har nogen — tilføj ikke en tom sektion.
 - `### Flow beskrivelse` er en underoverskrift til `## Beskrivelse`, ikke sit eget `##`-afsnit.
+- `## Hvor finder du featuren` er navigation (klik-stien til featuren), `### Flow beskrivelse` er brug (hvad man gør, når man er nået frem) — bland ikke de to sammen.
