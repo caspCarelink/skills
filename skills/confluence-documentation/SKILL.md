@@ -1,6 +1,6 @@
 ---
 name: confluence-documentation
-description: Use when writing or updating Confluence documentation for a feature, module, or technical branch/PR handoff (Jobmatch/CGID-style projects), when asked to "document this feature", "skriv dokumentation", "lav Confluence-dokumentation", or "lav en teknisk handoff-dokumentation" — picks the right template variant and enforces the team's existing structural conventions.
+description: Use when writing or updating Confluence documentation for a feature, module, or technical branch/PR handoff (Jobmatch/CGID-style projects), when asked to "document this feature", "skriv dokumentation", "lav Confluence-dokumentation", "lav en teknisk handoff-dokumentation", or when just deciding which doc template to use — "which template should I use", "hvilken skabelon skal jeg bruge", "vælg dokumentationsskabelon" — picks the right template variant and enforces the team's existing structural conventions.
 ---
 
 # Confluence Documentation
@@ -31,6 +31,8 @@ digraph variant_choice {
 ```
 
 If unclear which variant fits, ask the user rather than guessing.
+
+If the user only wants the variant recommendation (e.g. "which template should I use for X") rather than the finished doc, answer with just the variant (A1/A2/B) + a one-line reason from the decision tree above, and stop there — don't write the template content unless asked.
 
 ## Templates
 
