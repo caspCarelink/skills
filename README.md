@@ -22,7 +22,7 @@ skills/
 | [start-task](skills/start-task/SKILL.md) | Create branch from a Jira issue key and summarize the task |
 | [open-pr](skills/open-pr/SKILL.md) | Code review pass + Danish PR description + release note + opens the PR |
 | [test-handoff](skills/test-handoff/SKILL.md) | Danish test description for handoff to QA colleague |
-| [plan-sprint](skills/plan-sprint/SKILL.md) | Break an epic/story into Danish sub-tasks with codebase references |
+| [compose-task](skills/compose-task/SKILL.md) | Break an epic/story into Danish sub-tasks with codebase references |
 | [confluence-documentation](skills/confluence-documentation/SKILL.md) | Danish Confluence docs for features/modules/technical handoffs, picks fixed template variant |
 | [add-analytic](skills/utils/add-analytic/SKILL.md) | Umami tracking plan for jobportalclient pages/components |
 | [reflect](skills/meta/reflect/SKILL.md) | Logs friction/corrections after a skill runs, proposes fixes when patterns repeat |
